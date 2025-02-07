@@ -1,0 +1,187 @@
+/* google fonts  */
+/* inter font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* rock salt font  */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+/* universal styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+    color: #FFF;
+}
+
+/* shared style */
+.display-flex {
+    display: flex;
+}
+
+.m-width {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.bg-primary {
+    background: #111;
+}
+
+.primary-clr {
+    color: #E6533C;
+}
+
+.btn-primary {
+    background-color: #E6533C;
+    padding: 1rem 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.125rem;
+    border-radius: 42px;
+    border: none;
+}
+
+.btn-div {
+    gap: 14px;
+}
+
+.sec-title {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sec-desc {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* navbar related style */
+header {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.brand {
+    font-size: 2.25rem;
+    font-style: italic;
+}
+
+.nav-bar {
+    padding-bottom: 60px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-bar li,
+.nav-bar a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.nav-items {
+    gap: 2.5rem;
+    border-radius: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    padding: 1.125rem 2.5rem;
+    padding-left: 0.25rem;
+
+}
+
+/* banner section  */
+.banner-container {
+    gap: 160px;
+}
+
+.banner-content {
+    max-width: 520px;
+}
+
+.banner-title {
+    font-size: 4.8rem;
+    line-height: 70px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 90px;
+}
+
+#shape {
+    color: #FFF;
+    font-family: "Rock Salt", serif;
+    font-size: 4.8rem;
+    font-weight: 400;
+}
+
+.banner-desc {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+/* Change Your Habits */
+.habit-container {
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.habit-content {
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.habit-card {
+    max-width: 230px;
+    text-align: center;
+}
+
+.habit-img {
+    border-radius: 50%;
+}
+
+.h-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.h-desc {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 128.571%;
+    letter-spacing: 0.3px;
+}
+
+/* <!-- Run an Extra Mile Easily --> */
+.run-extra {
+    border-radius: 18px;
+    background-color: #222;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.run-extra>img{
+    border-radius: 18px;
+}
+
+.run-content {
+    max-width: 445px;
+}
+
+#run-id {
+    text-align: start;
+    margin: 14px;
+}
