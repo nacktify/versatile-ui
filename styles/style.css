@@ -274,7 +274,7 @@ select {
 
 .bmi-form {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
     gap: 10px;
     margin: 30px auto;
 }
@@ -340,10 +340,12 @@ select {
     line-height: 120%;
     /* 84px */
 }
-.foot-sec{
+
+.foot-sec {
     justify-content: space-between;
 }
-.foot-items{
+
+.foot-items {
     gap: 150px;
 }
 
@@ -354,14 +356,143 @@ select {
 .foot-uls {
     max-width: 180px;
 }
+
 .foot-uls>ul li {
     padding-bottom: 20px;
 }
-hr{
+
+hr {
     margin-top: 36px;
     margin-bottom: 36px;
 }
-.rights{
+
+.rights {
     text-align: center;
     padding-bottom: 46px;
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 30px;
+    }
+
+    .nav-items {
+        gap: 15px;
+    }
+
+    .nav-items ul>li {
+        font-size: .25rem;
+    }
+
+    .banner-container,
+    .nav-bar,
+    .run-extra,
+    .foot-sec,
+    .bmi-dad {
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        padding-bottom: 0;
+    }
+
+    .banner-container {
+        gap: 0;
+    }
+
+    .banner-container>img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .habit {
+        padding: 30px;
+    }
+
+    .habit-container {
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .habit-card {
+        width: 40%;
+    }
+
+    .habit-card>img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .run-extra {
+        margin: 0 20px;
+        gap: 30px;
+    }
+
+    .training {
+        max-height: 100%;
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .training-images {
+        grid-template-columns: repeat(2, auto);
+        width: 100%;
+    }
+
+    .training-images img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .bmi-dad {
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .bmi-table {
+        margin: 0 auto;
+    }
+
+    .bmi-form {
+        margin: 20px auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    input,
+    select {
+        width: calc(100% - 30px);
+    }
+
+    .team-container {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .team-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .team-container {
+        padding: 20px;
+    }
+
+    .foot-sec {
+        gap: 20px;
+         /* padding: 20px; */
+        
+    }
+
+    .foot-items {
+        gap: 30px;
+        justify-content: space-evenly;
+    }
+    #fit-id-foot{
+        padding: 20px;
+    }
+
+    .rights {
+        justify-content: center;
+    }
 }
